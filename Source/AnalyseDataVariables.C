@@ -232,6 +232,7 @@ float Z1 = 0.;
 float Z2 = 0.;
 float Zg = 0.;
 float Z3 = 0.;
+float Z4 = 0.;
 
 
 char tempdir[512];
@@ -351,8 +352,16 @@ if(YEAR==2018 && MONTH==8){
 //sprintf(filesdir,"/data/insudaq/ascii_axial18/");
 }
 
-sprintf(tempdir,"tempfile.txt");
+if(YEAR==2018 && MONTH==10){
+    Z1 = Z118_1;
+    Z2 = Z218_1;
+    Zg = Zg18_1;
+    Z3 = Z318_1;
+    Z4 = Z418_1;
 
+}
+
+sprintf(tempdir,"tempfile.txt");
 
 
 float D12 = Z2 - Z1; // detector 1-2 distance
@@ -360,3 +369,4 @@ float D13 = Z3 - Z1; // detector 1-3 distance
 float D23 = Z3 - Z2; // detector 2-3 distance
 float D2g = Zg - Z2; // detector 2-g distance
 float Dg3 = Z3 - Zg; // detector g-3 distance
+float D34 = Z4 - Z3; // detector 2-3 distance

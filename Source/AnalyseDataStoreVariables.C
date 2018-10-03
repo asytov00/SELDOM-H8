@@ -25,6 +25,12 @@ flagposy4 = 0;
     thXout = (x3-x2) / D23 ;//thXout = (x3+x2) / D23 ;
     thYout = (y3-y2) / D23 ;
 
+// experiment at H8    
+ if(YEAR==2018 && MONTH==10){    
+    
+    thXout = (x4-x3) / D34 ; //4 detectors
+    thYout = (y4-y3) / D34 ; //4 detectors
+ }
                             deflX = thXout - thXin ;//deflX = thXout + thXin ;
                             deflY = thYout - thYin ;
     double offsetX = 0.;

@@ -69,3 +69,21 @@
 
  }
 
+ if(YEAR==2018 && MONTH==10){
+      fscanf(filein,"%f %f %f %f %f %f %f %f", &(pos[0]),&(pos[1]),&(pos[2]),&(pos[3]),&(pos[4]),&(pos[5]),&(pos[6]),&(pos[7]));
+
+    for(unsigned int i0=0;i0<6;i0++){
+        fscanf(filein,"%2d",&(cluster[i0]));
+        //std::cout << cluster[i0] << " " ;
+        
+    fscanf(filein," %f %f %f %f %f %9d",&(gonio_rot),&(gonio_crad),&(up_lin),&(up_lin_2),&(up_ver),&(eventnumb));
+    
+    //if( (runnumb >= 300258)) { 
+    //  for(unsigned int i0=0;i0<519;i0++){    
+    //      fscanf(filein,"%5d",&iii);
+    //  }
+    //}
+    
+    //std::cout << gonio_rot << " " << eventnumb << std::endl;
+
+ }

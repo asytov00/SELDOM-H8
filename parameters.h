@@ -83,9 +83,10 @@
 #define Zg18_1   12.375      // Goniometer-Crystal position?
 #define Z318_1   17.227      // SD3?
 
-#define Z118_2   0.000      // SD1?
-#define Z218_2   11.9      // SD2?
+#define Z118_2   0.000      // SD1
+#define Z218_2   11.9      // SD2
 #define Zg18_2   12.375      // Goniometer-Crystal position?
-#define Z318_2   17.227      // SD3?
+#define Z318_2   17.227      // SD3
+#define Z418_2   17.227      // SD4
 
 #endif

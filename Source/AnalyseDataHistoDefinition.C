@@ -18,10 +18,12 @@ TH1F *hy3naP = new TH1F("hy3naP","X1 aligned on crystal;X1   [#mum]",500,posMin[
 TH1F *hx1 = new TH1F("hx1","X1 aligned;X1   [#mum]",1000,posMin[1],posMax[1]);
 TH1F *hx2 = new TH1F("hx2","X2 aligned;X2   [#mum]",1000,posMin[3],posMax[3]);
 TH1F *hx3 = new TH1F("hx3","X3 aligned;X3   [#mum]",1000,posMin[5],posMax[5]);
+TH1F *hx4 = new TH1F("hx4","X4 aligned;X4   [#mum]",1000,posMin[5],posMax[5]);
 
 TH1F *hy1 = new TH1F("hy1","Y1 aligned;Y1   [#mum]",1000,posMin[0],posMax[0]);
 TH1F *hy2 = new TH1F("hy2","Y2 aligned;Y2   [#mum]",1000,posMin[2],posMax[2]);
 TH1F *hy3 = new TH1F("hy3","Y3 aligned;Y3   [#mum]",1000,posMin[4],posMax[4]);
+TH1F *hy4 = new TH1F("hy4","Y4 aligned;Y4   [#mum]",1000,posMin[4],posMax[4]);
 
 TH1F *hx1P = new TH1F("hx1P","X1 aligned;X1   [#mum]",1000,posMin[1],posMax[1]);
 TH1F *hx2P = new TH1F("hx2P","X2 aligned;X2   [#mum]",1000,posMin[3],posMax[3]);
@@ -52,6 +54,7 @@ TH1F *hy23P = new TH1F("hy23P","Y position difference; Y3-Y2 [#mum]",2000,-2.5E4
 TH2F *hxy1 = new TH2F("hxy1","Y Vs X for detector 1;X  [#mum];Y  [#mum]",detectXBin,detectX1,detectX2,detectYBin,detectY1,detectY2);
 TH2F *hxy2 = new TH2F("hxy2","Y Vs X for detector 2;X  [#mum];Y  [#mum]",detectXBin,detectX1,detectX2,detectYBin,detectY1,detectY2);
 TH2F *hxy3 = new TH2F("hxy3","Y Vs X for detector 3;X  [#mum];Y  [#mum]",detectXBin,detectX1,detectX2,detectYBin,detectY1,detectY2);
+TH2F *hxy4 = new TH2F("hxy4","Y Vs X for detector 4;X  [#mum];Y  [#mum]",detectXBin,detectX1,detectX2,detectYBin,detectY1,detectY2);
 
 
 

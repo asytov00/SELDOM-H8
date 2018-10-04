@@ -2,18 +2,18 @@
 #define _PARAMETERS_H_
 
 #define YEAR 2018
-#define MONTH 8	
+#define MONTH 10
 #define SQR(X) (X)*(X)
 
 #define MAX_ENTRIES 100000000000
 
-#define N_RUNS 1
+#define N_RUNS 4
 
-#define RUN_NUMB  300331
+#define RUN_NUMB  600074
 
-#define RUN_NUMB2 300317
-#define RUN_NUMB3 300314
-#define RUN_NUMB4 300312
+#define RUN_NUMB2 600075
+#define RUN_NUMB3 600076
+#define RUN_NUMB4 600077
 #define RUN_NUMB5 300313
 #define RUN_NUMB6 112967
 #define RUN_NUMB7 112968

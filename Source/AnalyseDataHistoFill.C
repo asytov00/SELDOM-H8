@@ -10,9 +10,11 @@ if  ((cluster[4]==1) && (cluster[5]==1))
 hx1->Fill(x1);
 hx2->Fill(x2);
 hx3->Fill(x3);
+hx4->Fill(x4);
 hy1->Fill(y1);
 hy2->Fill(y2);
 hy3->Fill(y3);
+hy4->Fill(y4);
 
 hx1naP->Fill(x1);
 hx2naP->Fill(x2);
@@ -33,6 +35,7 @@ hy23->Fill(y2-y3);
 hxy1->Fill(x1,y1);
 hxy2->Fill(x2,y2);
 hxy3->Fill(x3,y3);
+hxy4->Fill(x4,y4);
 
 hthXin->Fill(thXin);
 hthYin->Fill(thYin);
